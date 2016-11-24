@@ -1,0 +1,61 @@
+﻿@using Podcasts.Models
+@model FeedModel
+
+@{
+    ViewBag.Title = "Feed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="feed">
+    <p>@Html.ActionLink("Gå tilbage til Dine podcasts her", "Index", "Podcast")</p>
+
+    <div class="background">
+        <table class="header">
+            <tr>
+                <td><img src="@Model.ImageUrl"/></td>
+                <td class="description">
+                    <h2>@Model.Title</h2>
+                    <p><a href="@Model.Url" target="_blank">@Model.Url</a>
+                    </p>
+                    <p>@Model.Description</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>Afsnit</h3>
+    <table class="items">
+        @{
+            int i = 0;
+            foreach (ItemModel item in Model.Items)
+            {
+                <tr class="item">
+                    <td class="image"><img src="~/Content/Images/podcast.png"/></td>
+                    <td class="publish-date" title="Udgivelsesdato">@item.PublishDate.Date.ToString("D")</td>
+                    <td class="title">
+                        @item.Title
+                        @if (!string.IsNullOrEmpty(item.Content))
+                        {
+                            <a class="read-more" data-toggle="modal" data-target="#myModal-@i">Læs mere</a>
+                            <div id="myModal-@i" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header"><h4 class="modal-title">@item.Title</h4></div>
+                                        <div class="modal-body"><p>@item.Content</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </td>
+                    <td class="listen">
+                        @if (!string.IsNullOrEmpty(item.Url)) { <a href="@item.Url" target="_blank">Hør</a> }
+                    </td>
+                    <td class="download">
+                        @if (!string.IsNullOrEmpty(item.GetDownloadLink())) { <a href="@item.GetDownloadLink()" download>Download</a> }
+                    </td>
+                </tr>
+                i++;
+            }
+        }
+    </table>
+</div>

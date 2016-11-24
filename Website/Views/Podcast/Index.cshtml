@@ -1,0 +1,35 @@
+﻿@using Podcasts.Models
+@model Website.Models.PodcastViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Podcasts</h2>
+<p>Velkommen til podcasts.</p>
+<p>Her har du hele din samlet oversigt over dine favorit podcasts.</p>
+
+@using (Html.BeginForm())
+{
+    <div class="add-podcast background">
+        <h4>Tilføj podcast</h4>
+        <p>Indtast url for at tilføje en ny podcast til Dine podcasts.</p>
+        @Html.TextBoxFor(m => m.FeedUrl, new { @placeholder = "Indtast url til podcast her.", @class = "form-control" })
+        <input type="submit" value="Tilføj" class="btn btn-primary"/>
+        @Html.ValidationMessageFor(m => m.FeedUrl)
+    </div>
+
+
+    <div class="background">
+        <h4>Dine podcasts (@Model.Podcasts.Count)</h4>
+        @foreach (PodcastModel podcast in Model.Podcasts)
+        {
+            <div class="podcast grow">
+                <a href="@Url.Action("Feed", "Podcast", new {podcastId = podcast.Id})">
+                    <img src="@podcast.ImageUrl" alt="@podcast.Title" title="@(podcast.Description)"/>
+                </a>
+            </div>
+        }
+    </div>
+}

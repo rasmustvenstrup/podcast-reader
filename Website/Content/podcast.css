@@ -1,0 +1,116 @@
+﻿.background {
+    background-color: #eff1f4;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.background h4 {
+    margin-top: 0;
+}
+
+.background img {
+    border-radius: 5px;
+}
+
+.feed {
+    margin-top: 20px;
+}
+
+.feed .header {
+    width: 100%;
+}
+
+.feed .header td {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.feed .header h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.feed .header img {
+    width: 200px;
+}
+
+.feed .header .description {
+    width: 100%;
+}
+
+.feed .items {
+    width: 100%;
+}
+
+.feed .item:nth-child(odd) {
+    background-color: #eff1f4;
+}
+
+.feed .item td {
+    border-top: 1px solid #eff1f4;
+    padding-right: 10px;
+}
+
+.feed .item .title {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.feed .item .publish-date {
+    white-space:nowrap;
+}
+
+.feed .item .image img {
+    width: 40px;
+}
+
+.feed .item .read-more {
+    margin-left: 10px;
+}
+
+.feed .item .read-more:hover {
+    cursor: pointer;
+}
+
+.add-podcast #FeedUrl {
+    display: inline;
+    max-width: 400px;
+    width: 400px;
+}
+
+.add-podcast input[type=submit] {
+    display: inline;
+}
+
+.add-podcast .field-validation-error {
+    color: red;
+}
+
+.podcast {
+    margin: 10px 10px 0px 0;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.podcast img {
+    width: 170px;
+    height: 170px;
+}
+
+.grow img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 180px;
+  height: 180px;
+}

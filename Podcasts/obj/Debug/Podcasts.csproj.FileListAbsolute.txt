@@ -1,0 +1,9 @@
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\Podcasts.dll
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\Podcasts.pdb
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\AutoMapper.dll
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\Newtonsoft.Json.dll
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\AutoMapper.xml
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\bin\Debug\Newtonsoft.Json.xml
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\obj\Debug\Podcasts.dll
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\obj\Debug\Podcasts.pdb
+C:\rht\Visual Studio Projekter\PodcastReader\Podcasts\obj\Debug\Podcasts.csprojResolveAssemblyReference.cache
