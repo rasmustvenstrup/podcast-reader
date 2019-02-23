@@ -102,3 +102,7 @@ C:\rht\Visual Studio Projekter\PodcastReader\Tests\Website.Tests.Unit\bin\Debug\
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.dll
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.pdb
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.csprojAssemblyReference.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.csproj.CoreCompileInputs.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.dll
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Website.Tests.Unit\obj\Debug\Website.Tests.Unit.pdb

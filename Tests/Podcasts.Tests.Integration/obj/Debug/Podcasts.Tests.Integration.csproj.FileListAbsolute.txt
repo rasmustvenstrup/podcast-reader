@@ -18,3 +18,7 @@ C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Integration\ob
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.dll
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.pdb
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Integration\bin\Debug\StructureMap.dll
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.csprojAssemblyReference.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.csproj.CoreCompileInputs.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.dll
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Integration\obj\Debug\Podcasts.Tests.Integration.pdb
