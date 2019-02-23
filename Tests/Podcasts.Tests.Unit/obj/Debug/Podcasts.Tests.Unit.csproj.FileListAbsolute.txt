@@ -24,3 +24,7 @@ C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Unit\bin\Debug
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.dll
 C:\rht\Visual Studio Projekter\PodcastReader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.pdb
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.csprojAssemblyReference.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.csproj.CoreCompileInputs.cache
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.dll
+C:\rht\Code\C-Sharp\podcast-reader\Tests\Podcasts.Tests.Unit\obj\Debug\Podcasts.Tests.Unit.pdb
